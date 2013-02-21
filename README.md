@@ -10,6 +10,7 @@ This is a central repository of idiomatic coding style guides for HTML, CSS, JS,
 
 * [necolas / idiomatic-css](https://github.com/necolas/idiomatic-css)
 * [rwldrn / idiomatic.js](https://github.com/rwldrn/idiomatic.js/)
+* [php-fig / fig-standards](https://github.com/php-fig/fig-standards)
 
 
 ##Why Not Simply Fork Existing Guides?
