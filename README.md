@@ -1,10 +1,9 @@
-#Guides
+#Style Guides
 * [CSS](https://github.com/dtrenz/style-guides/blob/master/guides/CSS.md)
 * [Javascript](https://github.com/dtrenz/style-guides/blob/master/guides/JS.md)
 * [PHP](https://github.com/dtrenz/style-guides/blob/master/guides/PHP.md)
 
-
-#About
+##About
 
 This is a central repository of idiomatic coding style guides for HTML, CSS, JS, &amp; PHP.  Most of these docs are taken from existing style guides, most notably;
 
