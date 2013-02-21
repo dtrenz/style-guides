@@ -1,9 +1,15 @@
+#Guides
+* [CSS](https://github.com/dtrenz/style-guides/blob/master/guides/CSS.md)
+* [Javascript](https://github.com/dtrenz/style-guides/blob/master/guides/JS.md)
+* [PHP](https://github.com/dtrenz/style-guides/blob/master/guides/PHP.md)
+
+
 #About
 
 This is a central repository of idiomatic coding style guides for HTML, CSS, JS, &amp; PHP.  Most of these docs are taken from existing style guides, most notably;
 
-- [necolas / idiomatic-css](https://github.com/necolas/idiomatic-css)
-- [rwldrn / idiomatic.js](https://github.com/rwldrn/idiomatic.js/)
+* [necolas / idiomatic-css](https://github.com/necolas/idiomatic-css)
+* [rwldrn / idiomatic.js](https://github.com/rwldrn/idiomatic.js/)
 
 
 ##Why Not Simply Fork Existing Guides?
