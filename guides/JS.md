@@ -1,5 +1,5 @@
 ## Table of Contents
-
+<a name="top"></a>
  1. [Whitespace](#whitespace)
  2. [Beautiful Syntax](#syntax)
  3. [Naming](#naming)
@@ -14,6 +14,7 @@
 
 Always use 4 spaces (soft-tab) for indentation, never use tabs.
 
+[top](#top)
 
 
 <a name="syntax"></a>
@@ -216,6 +217,8 @@ if ( ! ("foo" in obj) ) {
 
 Always use single quotes.  Simple, eh?
 
+[top](#top)
+
 
 
 <a name="naming"></a>
@@ -293,6 +296,8 @@ methodNamesLikeThis;
 SYMBOLIC_CONSTANTS_LIKE_THIS;
 ```
 
+[top](#top)
+
 
 
 <a name="misc"></a>
@@ -327,14 +332,18 @@ function returnLate( foo ) {
 }
 ```
 
+[top](#top)
+
 
 
 <a name="comments"></a>
 ## 5. Comments
 
-#### Single line above the code that is subject
-#### Multiline is good
-#### End of line comments are prohibited!
+* Single line above the code that is subject
+* Multiline is good
+* End of line comments are prohibited!
+
+[top](#top)
 
 
 
@@ -355,6 +364,8 @@ TBD
 
 * Use $.on() as opposed to $.bind(), $.live(), or $.delegate() for generic event binding, whether direct or delegated.
 * TBD
+
+[top](#top)
 
 
 
