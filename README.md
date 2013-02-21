@@ -5,6 +5,7 @@ This is a central repository of idiomatic coding style guides for HTML, CSS, JS,
 - [necolas / idiomatic-css](https://github.com/necolas/idiomatic-css)
 - [rwldrn / idiomatic.js](https://github.com/rwldrn/idiomatic.js/)
 
+
 ##Why Not Simply Fork Existing Guides?
 
 A few reasons - while these guides make for a great foundation;
@@ -14,7 +15,11 @@ A few reasons - while these guides make for a great foundation;
 3. It's just nice to have them all in one location.
 
 
-## This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
+##Contributors
 
 * [Kevin McGinty](https://github.com/atomicframeworks)
 * [Scott Brown](https://github.com/dbrown75)
+
+ 
+### This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
+
