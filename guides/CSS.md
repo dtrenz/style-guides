@@ -1,3 +1,4 @@
+<a name="top"></a>
 ## Table of contents
 
 1. [General principles](#general-principles)
@@ -6,6 +7,7 @@
 4. [Format](#format)
 5. [Practical example](#example)
 
+--------------------------------------------
 
 <a name="general-principles"></a>
 ## 1. General principles
@@ -21,6 +23,9 @@
 * Strictly enforce the agreed-upon style.
 * If in doubt when deciding upon a style, use existing, common patterns.
 
+[top](#top)
+
+
 
 <a name="whitespace"></a>
 ## 2. Whitespace
@@ -28,6 +33,9 @@
 Use 4 spaces - never tabs - per indentation level. Only one style should exist across the entire source of your code-base. Always
 be consistent in your use of whitespace. Use whitespace to improve
 readability.
+
+[top](#top)
+
 
 
 <a name="comments"></a>
@@ -74,6 +82,9 @@ Example:
 
 /* Basic comment */
 ```
+
+[top](#top)
+
 
 
 <a name="format"></a>
@@ -212,6 +223,9 @@ preprocessor in use. The following guidelines are in reference to Sass.
 }
 ```
 
+[top](#top)
+
+
 
 <a name="example"></a>
 ## 5. Practical example
@@ -296,6 +310,10 @@ An example of various conventions.
 }
 ```
 
+[top](#top)
+
+
+-----------------------------------------------
 
 Based on a work at
 [github.com/necolas/idiomatic-css](https://github.com/necolas/idiomatic-css).
