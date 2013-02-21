@@ -1,13 +1,3 @@
-# Principles of writing consistent, idiomatic CSS
-
-The following document outlines a reasonable style guide for CSS development.
-These guidelines strongly encourage the use of existing, common, sensible
-patterns. They should be adapted as needed to create your own style guide.
-
-This is a living document and new ideas are always welcome. Please
-contribute.
-
-
 ## Table of contents
 
 1. [General principles](#general-principles)
@@ -15,10 +5,6 @@ contribute.
 3. [Comments](#comments)
 4. [Format](#format)
 5. [Practical example](#example)
-
-[Acknowledgements](#acknowledgements)
-
-[License](#license)
 
 
 <a name="general-principles"></a>
@@ -39,23 +25,9 @@ contribute.
 <a name="whitespace"></a>
 ## 2. Whitespace
 
-Only one style should exist across the entire source of your code-base. Always
+Use 4 spaces - never tabs - per indentation level. Only one style should exist across the entire source of your code-base. Always
 be consistent in your use of whitespace. Use whitespace to improve
 readability.
-
-* _Never_ mix spaces and tabs for indentation.
-* Choose between soft indents (spaces) or real tabs. Stick to your choice
-  without fail. (Preference: spaces)
-* If using spaces, choose the number of characters used per indentation level.
-  (Preference: 4 spaces)
-
-Tip: configure your editor to "show invisibles". This will allow you to
-eliminate end-of-line whitespace, eliminate unintended blank-line whitespace,
-and avoid polluting commits.
-
-Tip: use an [EditorConfig](http://editorconfig.org/) file (or equivalent) to
-help maintain the basic whitespace conventions that have been agreed for your
-code-base.
 
 
 <a name="comments"></a>
@@ -72,9 +44,6 @@ Comment style should be simple and consistent within a single code base.
 * Keep line-length to a sensible maximum, e.g., 80 columns.
 * Make liberal use of comments to break CSS code into discrete sections.
 * Use "sentence case" comments and consistent text indentation.
-
-Tip: configure your editor to provide you with shortcuts to output agreed-upon
-comment patterns.
 
 Example:
 
@@ -120,8 +89,7 @@ in useful diffs and blames.
 * Use one level of indentation for each declaration.
 * Include a single space after the colon of a declaration.
 * Use lowercase and shorthand hex values, e.g., `#aaa`.
-* Use single or double quotes consistently. Preference is for double quotes,
-  e.g., `content: ""`.
+* Always use double quotes. e.g., `content: ""`.
 * Quote attribute values in selectors, e.g., `input[type="checkbox"]`.
 * _Where allowed_, avoid specifying units for zero-values, e.g., `margin: 0`.
 * Include a space after each comma in comma-separated property or function
@@ -154,8 +122,7 @@ in useful diffs and blames.
 
 #### Declaration order
 
-If declarations are to be consistently ordered, it should be in accordance with
-a single, simple principle. My preference is for structurally important
+Declarations should be consistently ordered, with structurally important
 properties (e.g. positioning and box-model) to be declared prior to all
 others.
 
@@ -187,11 +154,6 @@ others.
     text-align: right;
 }
 ```
-
-Strict alphabetical ordering is also relatively popular, but the drawback is
-that it separates related properties. For example, position offsets are no
-longer grouped together and box-model properties can end up spread throughout a
-declaration block.
 
 #### Exceptions and slight deviations
 
@@ -334,41 +296,6 @@ An example of various conventions.
 }
 ```
 
-
-## Translations
-
-* [Česky](https://github.com/necolas/idiomatic-css/tree/master/translations/cs-CZ)
-* [Dansk](https://github.com/necolas/idiomatic-css/tree/master/translations/da-DK)
-* [Deutsch](https://github.com/necolas/idiomatic-css/tree/master/translations/de-DE)
-* [Español](https://github.com/necolas/idiomatic-css/tree/master/translations/es-ES)
-* [Français](https://github.com/necolas/idiomatic-css/tree/master/translations/fr-FR)
-* [Italiano](https://github.com/necolas/idiomatic-css/tree/master/translations/it-IT)
-* [日本語](https://github.com/necolas/idiomatic-css/tree/master/translations/ja-JP)
-* [한국어](https://github.com/necolas/idiomatic-css/tree/master/translations/ko-KR)
-* [Nederlands](https://github.com/necolas/idiomatic-css/tree/master/translations/nl-NL)
-* [Polski](https://github.com/necolas/idiomatic-css/tree/master/translations/pl-PL)
-* [Português (Brasil)](https://github.com/necolas/idiomatic-css/tree/master/translations/pt-BR)
-* [Русский](https://github.com/necolas/idiomatic-css/tree/master/translations/ru-RU)
-* [Srpski](https://github.com/necolas/idiomatic-css/tree/master/translations/sr-SR)
-* [Türkçe](https://github.com/necolas/idiomatic-css/tree/master/translations/tr-TR)
-* [简体中文](https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN)
-
-
-<a name="acknowledgements"></a>
-## Acknowledgements
-
-Thanks to everyone who has provided translations and to all those who
-contributed to [idiomatic.js](https://github.com/rwldrn/idiomatic.js). It was a
-source of inspiration, quotations, and guidelines.
-
-
-<a name="license"></a>
-## License
-
-_Principles of writing consistent, idiomatic CSS_ by Nicolas Gallagher is
-licensed under the [Creative Commons Attribution 3.0 Unported
-License](http://creativecommons.org/licenses/by/3.0/). This applies to all
-documents and translations in this repository.
 
 Based on a work at
 [github.com/necolas/idiomatic-css](https://github.com/necolas/idiomatic-css).
