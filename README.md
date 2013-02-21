@@ -23,8 +23,8 @@ A few reasons - while these guides make for a great foundation;
 
 ##Contributors
 
-* [Kevin McGinty](https://github.com/atomicframeworks)
-* [Scott Brown](https://github.com/dbrown75)
+* [atomicframeworks](https://github.com/atomicframeworks)
+* [dbrown75](https://github.com/dbrown75)
 
  
 ### This is a living document and new ideas for improving the code around us are always welcome. Contribute: fork, clone, branch, commit, push, pull request.
