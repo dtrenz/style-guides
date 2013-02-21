@@ -1,5 +1,6 @@
-## Table of Contents
 <a name="top"></a>
+## Table of Contents
+
  1. [Whitespace](#whitespace)
  2. [Beautiful Syntax](#syntax)
  3. [Naming](#naming)
