@@ -1,3 +1,9 @@
-[submodule "idiomatic-css"]
-	path = idiomatic-css
+[submodule "references/idiomatic-css"]
+	path = references/idiomatic-css
 	url = git://github.com/necolas/idiomatic-css.git
+[submodule "references/idiomatic-js"]
+	path = references/idiomatic-js
+	url = git://github.com/rwldrn/idiomatic.js.git
+[submodule "references/fig-standards"]
+	path = references/fig-standards
+	url = git://github.com/php-fig/fig-standards.git
