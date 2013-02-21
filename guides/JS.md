@@ -1,4 +1,4 @@
-<a name="top"></a>
+[&laquo; Back to README](https://github.com/dtrenz/style-guides/blob/master/README.md)<a name="top"></a>
 ## Table of Contents
 
  1. [Whitespace](#whitespace)
