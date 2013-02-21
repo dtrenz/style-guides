@@ -1,0 +1,3 @@
+[submodule "idiomatic-css"]
+	path = idiomatic-css
+	url = git://github.com/necolas/idiomatic-css.git
