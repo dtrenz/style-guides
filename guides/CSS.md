@@ -1,4 +1,4 @@
-<a name="top"></a>
+[&laquo; Back to README](https://github.com/dtrenz/style-guides/blob/master/README.md)<a name="top"></a>
 ## Table of contents
 
 1. [General principles](#general-principles)
