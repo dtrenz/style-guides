@@ -1,4 +1,3 @@
-
 --------------------------------------------
 
 <a name="general-principles"></a>
@@ -54,4 +53,6 @@
 
 - Comments should follow PHPDoc format.
   
-  
+- File names MUST be all lowercase, and use underscores - as opposed to hyphens - to separate words. NEVER use spaces.
+
+- View filenames should omit "_view" 
